@@ -20,10 +20,10 @@ class Bookstore:
             print(f"Harga: Rp {book.price}")
             print("")
 
-# Membuat objek Bookstore
+
 bookstore = Bookstore("Toko Buku ABC")
 
-# Menggunakan sistem input untuk menambahkan buku ke dalam toko
+# I N P U T
 n = int(input("Inputkan jumlah buku yang ingin ditambahkan: "))
 
 for i in range(n):
@@ -35,5 +35,5 @@ for i in range(n):
     book = Book(title, author, price)
     bookstore.add_book(book)
 
-# Menampilkan daftar buku yang tersedia di toko
+# D I S P L A Y
 bookstore.display_books()
